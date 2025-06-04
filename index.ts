@@ -38,3 +38,5 @@ app.listen(PORT, () => {
     connectDB();
     console.log(`Server running on port ${PORT}`);
 });
+
+export default app;
